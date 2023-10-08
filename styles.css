@@ -1,9 +1,6 @@
 body {
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 0;
   background: rgb(205, 255, 205);
 }
 
@@ -20,19 +17,23 @@ body {
   background: #1b244a;
   border: 8px solid rgb(255, 255, 255);
   border-radius: 10px;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /****** HOME SIDE ******/
 .home {
   margin-left: 25px;
+  text-align: center;
 }
 
 .home h3 {
   color: #eee;
-  text-align: center;
   font-family: Verdana;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
   line-height: 35.893px;
   margin-top: 68px;
@@ -48,13 +49,12 @@ body {
 .home-score p {
   color: #f94f6d;
   font-family: Cursed;
-  text-align: center;
   font-size: 90px;
-  font-style: normal;
   font-weight: 400;
   line-height: 127px;
   margin: 0;
 }
+
 .home-buttons {
   display: flex;
   justify-content: center;
@@ -63,15 +63,12 @@ body {
 .home-buttons button {
   width: 49px;
   height: 49px;
-  flex-shrink: 0;
   color: #9aabd8;
   border-radius: 5px;
   border: 2px solid #9aabd8;
   background: #1b244a;
-  text-align: center;
   font-family: Cursed;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 27px;
   margin: 26px 5px 5px 2px;
@@ -80,23 +77,21 @@ body {
 /****** GUEST SIDE ******/
 .guest {
   margin-right: 25px;
+  text-align: center;
 }
 
 .guest h3 {
   color: #eee;
-  text-align: center;
   font-family: Verdana;
   font-size: 40px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 35.893px;
+  line-height: 36px;
   margin-top: 68px;
 }
 
 .guest-score {
   width: 155px;
   height: 120px;
-  flex-shrink: 0;
   background: #080001;
   margin: 0 auto;
 }
@@ -104,10 +99,7 @@ body {
 .guest-score p {
   color: #f94f6d;
   font-family: Cursed;
-  text-align: center;
   font-size: 90px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 127px;
   margin: 0;
 }
@@ -119,16 +111,12 @@ body {
 .guest-buttons button {
   width: 49px;
   height: 49px;
-  flex-shrink: 0;
   color: #9aabd8;
   border-radius: 5px;
   border: 2px solid #9aabd8;
   background: #1b244a;
-  text-align: center;
   font-family: Cursed;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 27px;
   margin: 26px 5px 5px 2px;
 }
@@ -137,7 +125,6 @@ body {
 .new-game-btn button {
   width: 80px;
   height: 50px;
-  flex-shrink: 0;
   color: #ecd02e;
   border-radius: 5px;
   border: 2px solid #9aabd8;
@@ -145,8 +132,6 @@ body {
   text-align: center;
   font-family: Cursed;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   position: absolute;
   top: 50%;
   left: 50%;
